@@ -1,0 +1,224 @@
+/* Global */
+@font-face {
+    font-family: 'behind_violet_eyesregular';
+    src: url('behindvioleteyes-webfont.woff2') format('woff2'),
+         url('behindvioleteyes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+center p {
+	margin-top: 18px;
+}
+
+.textblue{
+	font-family: 'behind_violet_eyesregular';
+	color: #0597C7;
+}
+
+.textgreen{
+	font-family: 'behind_violet_eyesregular';
+	color: #89A930;
+}
+
+#logo {
+	width: 30%;
+    margin-top: 3px;
+    margin-left: -18px;
+}
+
+.nav {
+	display: inline-flex;
+	font-family: 'behind_violet_eyesregular';
+	font-size: 45px;
+}
+
+.nav-link {
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+
+.current {
+	color: #FF9100;
+}
+
+.border-platfrom {
+	border-color: #50C1E7;
+	border-style: ridge;
+    border-width: 5px;
+}
+
+li a:hover {
+	color: #038BB8;
+	font-weight: bold;
+}
+
+/* Carousel */
+.carousel-inner {
+    margin-left: 25%;
+    width: 68% !important;
+    border-top: 12px;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 12px;
+    border-color: #BFE25E;
+    border-style: outset;
+}
+
+.carousel-control-next {
+    right: 40px !important;
+}
+
+.carousel-control-prev {
+    left: 185px !important;
+}
+
+.carousel-indicators {
+    bottom: 3% !important;
+    right: -20% !important;
+}
+
+/* AD */
+#ad {
+	display: block;
+    margin-left: 13%;
+    margin-right: auto;
+    width: 61%;
+    border-style: outset;
+    border-width: 10px;
+    border-color: #0597C7;
+}
+
+.empty-space {
+	padding: 2%;
+}
+
+.blockquote-footer {
+	font-size: 30px;
+}
+
+p.cliente_desc1 {
+	font-family: 'behind_violet_eyesregular', Verdana;
+	font-size: 40px;
+    font-style: oblique;
+}
+
+footer {
+	font-family: 'behind_violet_eyesregular', Verdana;
+	font-size: 27px;
+	color: black;
+}
+
+#author {
+    margin-left: 0%;
+}
+
+#details {
+    margin-left: -38%;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: black;
+    margin-left: -193%;
+}
+
+.fa-instagram {
+	color: black;
+}
+
+
+/******** FOTOS ********/
+
+/* Marketing  */
+#fotos-size {
+	width: 83%;
+    height: 81%;
+    margin-left: 10%;
+    color: #000;
+}
+
+#fotos-titles {
+   font-family: 'behind_violet_eyesregular';
+   text-align: center;
+}
+
+#modal-marketing {
+   font-family: 'behind_violet_eyesregular';
+   font-size: 50px;
+   margin-top: 1%;
+}
+
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
+
+.marketing a:hover > img.blue-circle {
+	border-style: ridge;
+	border-width: 7px;
+	border-color: #0597C7;
+}
+
+.marketing a:hover > img.orange-circle {
+	border-style: ridge;
+	border-width: 7px;
+	border-color: #FF9100;
+}
+
+.marketing a:hover > img.green-circle {
+	border-style: ridge;
+	border-width: 7px;
+	border-color: #BFE25E;
+}
+
+#mark-foto {
+	width: 340%;
+    margin-left: 58%;
+    margin-top: 5%;
+}
+
+#modal-header-logo {
+    width: 10%;
+}
+
+.close {
+	font-size: 2.5rem !important;
+}
+
+/******** CONTACTOS ********/
+
+/* ENDEREçO */
+.contacto-jumbo {
+	background-color: #FFD399 !important;
+}
+
+#contacto-icons {
+	float: left;
+	font-size: 25px;
+}
+
+.contacto-pos .row > p {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.contacto-pos .row > a {
+	margin-top: 15px;
+	margin-left: 10px;
+}
